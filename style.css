@@ -1,1 +1,157 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
 
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Roboto, sans-serif;
+}
+
+
+.header-hero-wrapper {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.header-logo {
+    height: 50px;
+    width: 70px;
+  
+}
+
+.header-links {
+    display:flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 44px;
+}
+
+.header-links a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.hero {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px
+}
+
+.introduction {
+    align-self: center;
+    margin-right: 160px;
+}
+
+h1 {
+
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.intro-text {
+    color: white;
+}
+
+.intro-image {
+    height: 450px;
+    width: 700px;
+
+}
+
+
+.sign-up {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 900px;
+    padding: 5px 20px;
+    border-radius: 7px;
+    border: 0;
+}
+
+
+
+
+
+
+
+
+.card-wrapper {
+    margin: 100px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-top: -50px;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-image {
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    border-radius: 20px;
+    border: solid #3882F6;
+}
+
+.card-text {
+    margin-top: -20px;
+    text-align: center;
+}
+
+.quote-wrapper {
+    background: #eee;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 400px;
+    padding-left: 400px;
+    margin: 30px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 32px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: 900px;
+    font-size: 22px;
+    align-self: flex-end;
+    margin-right: 200px;
+}
